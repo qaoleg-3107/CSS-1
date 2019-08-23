@@ -1,0 +1,15 @@
+h1 {
+    color:bisque;
+}
+p {
+    color:red;
+}
+#chosen {
+    font-style: italic;
+}
+.underline {
+    text-decoration: underline
+}
+div p {
+    border: 1px solid black;
+}
