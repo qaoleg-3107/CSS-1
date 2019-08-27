@@ -1,15 +1,34 @@
+/* * {
+    background-color: chartreuse;
+} */
+:root {
+    font-size: 8px;
+}
+
 h1 {
-    color:bisque;
+    color: bisque;
 }
+
 p {
-    color:red;
+    color: red;
 }
+
 #chosen {
     font-style: italic;
 }
+
 .underline {
-    text-decoration: underline
+    text-decoration: underline;
 }
+
 div p {
     border: 1px solid black;
+}
+
+p:hover {
+    transform: rotate(180deg);
+}
+
+p::first-letter {
+    font-size: 2rem;
 }
